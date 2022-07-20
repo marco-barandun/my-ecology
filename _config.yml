@@ -14,17 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ecolgy
-# email: your-email@example.com
+email: ecology.marco@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ecologist working on niche modelling.
 baseurl: "/my-ecology" # the subpath of your site, e.g. /blog
 url: "https://marco-barandun.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
+instagram_username: m_bara
 
 # Build settings
 markdown: kramdown
-theme: minima
+# Removed minima theme as it is now a regular theme
+#theme: minima
 plugins:
   - jekyll-feed
 
